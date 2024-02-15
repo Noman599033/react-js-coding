@@ -1,0 +1,30 @@
+/* ModalA.css */
+.modal {
+    display: block !important;
+    
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); /* Black with opacity */
+}
+
+.modal-content {
+    background-color: black;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Close button */
+.modal-content button {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.modal-content button:hover,
+.modal-content button:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
